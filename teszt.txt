@@ -1,2 +1,2 @@
-teszt github webhook
-t
+github webhook
+teszt jenkins docker-compose

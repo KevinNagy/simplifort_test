@@ -6,8 +6,8 @@ services:
       - /opt/data/jenkins:/var/jenkins_home
       - /var/run/docker.sock:/var/run/docker.sock
     ports:
-      - "8080:8080"
-      - "50000:50000"
+      - "4040:4040"
+      - "5050:5050"
     deploy:
      placement:
         constraints: [node.hostname == Docker01]
